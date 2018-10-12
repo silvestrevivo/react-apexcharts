@@ -38,6 +38,28 @@ const options = {
       "Dallas",
       "San Jose"
     ]
+  },
+  plotOptions: {
+    bar: {
+      horizontal: false
+    }
+  },
+  fill: {
+    colors: ["#67908C"]
+  },
+  dataLabels: {
+    enabled: false
+  },
+  title: {
+    text: "React ApexCharts",
+    align: "center",
+    margin: 20,
+    offsetY: 20,
+    style: {
+      fontSize: "35px",
+      color: "#F06020",
+      fontFamily: ["Lucida Grande", "sans-serif"]
+    }
   }
 };
 
@@ -46,3 +68,18 @@ const chart = new ApexCharts(document.getElementById("chart"), options);
 
 // Render chart
 chart.render();
+
+// Events
+let button = document.getElementById("button");
+button.addEventListener("click", () => {
+  let disposition = options.plotOptions.bar.horizontal;
+  chart.updateOptions({
+    plotOptions: {
+      bar: {
+        horizontal: !disposition
+      }
+    }
+  });
+  options.plotOptions.bar.horizontal = !disposition;
+  button.innerHTML = disposition === true ? "Horizontal" : "Vertical";
+});
