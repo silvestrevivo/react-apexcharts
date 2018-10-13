@@ -4,4 +4,4 @@ Exercise with React and Apex Charts regarding the Youtube tutorial from @bradtra
 
 ## info about versions/commits
 
-In the commits is showed the hole process from a plain JavaScript project to a ReactJS component.
+In the commits is showed the hole process from a plain JavaScript project to a ReactJS component. Demo on: https://silvestrevivo.github.io/react-apexcharts/
