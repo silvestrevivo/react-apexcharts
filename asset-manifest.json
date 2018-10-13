@@ -1,11 +1,11 @@
 {
-  "main.js": "/static/js/main.54d431ec.chunk.js",
-  "main.js.map": "/static/js/main.54d431ec.chunk.js.map",
-  "static/js/1.b1446b6c.chunk.js": "/static/js/1.b1446b6c.chunk.js",
-  "static/js/1.b1446b6c.chunk.js.map": "/static/js/1.b1446b6c.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.720e5d971e210c35a1ed8b7938b21a1f.js": "/precache-manifest.720e5d971e210c35a1ed8b7938b21a1f.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/react-apexcharts/static/js/main.54d431ec.chunk.js",
+  "main.js.map": "/react-apexcharts/static/js/main.54d431ec.chunk.js.map",
+  "static/js/1.b1446b6c.chunk.js": "/react-apexcharts/static/js/1.b1446b6c.chunk.js",
+  "static/js/1.b1446b6c.chunk.js.map": "/react-apexcharts/static/js/1.b1446b6c.chunk.js.map",
+  "runtime~main.js": "/react-apexcharts/static/js/runtime~main.096a59c7.js",
+  "runtime~main.js.map": "/react-apexcharts/static/js/runtime~main.096a59c7.js.map",
+  "index.html": "/react-apexcharts/index.html",
+  "precache-manifest.bd87fdf316dc090ec674ee7c3532e902.js": "/react-apexcharts/precache-manifest.bd87fdf316dc090ec674ee7c3532e902.js",
+  "service-worker.js": "/react-apexcharts/service-worker.js"
 }
