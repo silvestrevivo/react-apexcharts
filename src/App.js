@@ -38,7 +38,7 @@ class App extends Component {
         align: "center",
         style: {
           fontSize: "35px",
-          color: "#F06020",
+          color: "#5f9ea0",
           fontFamily: ["Lucida Grande", "sans-serif"]
         }
       }
@@ -88,7 +88,7 @@ class App extends Component {
             series={this.state.series}
             type="bar"
             width="100%"
-            heigth="450"
+            height="500"
           />
           <button onClick={this.disposition}>
             {disposition === true ? "Horizontal" : "Vertical"}
